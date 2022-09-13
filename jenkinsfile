@@ -35,7 +35,7 @@ pipeline {
            steps {
               script {
                 sh '''
-                    curl http://192.168.56.4:${PORT_EXPOSED} | grep -q "Hello world!"
+                    curl http://192.168.56.4:${PORT_EXPOSED} | grep -q "AJC FORMATION"
                 '''
               }
            }
